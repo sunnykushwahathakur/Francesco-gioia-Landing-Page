@@ -108,3 +108,34 @@ img{
 #footer-inside :nth-child(2){
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    #nav h3 {
+        font-size: 18px;
+    }
+
+    #main h1 {
+        font-size: 14vw;
+        line-height: 1.1;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    img {
+        height: 40vw;
+        top: 25%;
+    }
+
+    #footer {
+        height: auto;
+        margin-top: 20%;
+    }
+
+    #footer-inside {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+}
